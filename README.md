@@ -1,7 +1,7 @@
 # lfs-journey
 My Linux From Scratch journey
 
-## 18.06.2024
+## 17.06.2024
 
 ### Reading Progress
 
