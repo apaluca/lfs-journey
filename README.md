@@ -5,7 +5,7 @@ My Linux From Scratch journey
 
 ### Reading Progress
 
-Today, I began my Linux From Scratch (LFS) journey using the LFS Book, version 12.01. I covered:
+Today, I began my Linux From Scratch (LFS) journey using the LFS Book, version 12.1. I covered:
 
 - **Preface:** Provided an overview of the LFS project, explaining its purpose and benefits.
 - **Chapter 1: Introduction:** Introduced the project's goals, prerequisites, and tools, emphasizing the educational value of building a Linux system from scratch.
