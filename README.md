@@ -29,7 +29,7 @@ Today's activities provided a solid foundation for my LFS journey, combining the
 
 ### Reading Progress
 
-Today, I made significant progress in my Linux From Scratch (LFS) journey using the LFS Book, version 12.01. I covered:
+Today I covered:
 
 - **Chapter 2: Preparing the Host System**
   - Set up the necessary tools and environment for the LFS build, including creating and formatting a new partition, setting up the $LFS variable, and mounting the partition.
