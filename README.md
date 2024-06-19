@@ -23,3 +23,26 @@ I also read two recommended articles:
 ### Summary
 
 Today's activities provided a solid foundation for my LFS journey, combining theoretical knowledge from the book with practical insights from the articles.
+
+
+## 18.06.2024
+
+### Reading Progress
+
+Today, I made significant progress in my Linux From Scratch (LFS) journey using the LFS Book, version 12.01. I covered:
+
+- **Chapter 2: Preparing the Host System**
+  - Set up the necessary tools and environment for the LFS build, including creating and formatting a new partition, setting up the $LFS variable, and mounting the partition.
+
+- **Chapter 3: Packages and Patches**
+  - Collected all the required packages and patches needed for the LFS build, ensuring I have everything ready for the installation process.
+
+- **Chapter 4: Final Preparations**
+  - Created a basic directory structure, added a dedicated LFS user, set up the build environment, and learned about Standard Build Units (SBUs) and the importance of test suites.
+
+- **Chapter 5: Compiling a Cross-Toolchain**
+  - Built the initial cross-compiler tools, including Binutils, GCC, Linux API headers, Glibc, and the C++ standard library (Libstdc++).
+
+### Summary
+
+Today's activities have laid a strong foundation for my LFS build. I've set up my environment, prepared the necessary tools and packages, and completed the first stages of building a cross-compiler.
