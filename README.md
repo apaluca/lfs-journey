@@ -156,9 +156,6 @@ Today I covered:
 - E2fsprogs-1.47.0
 - Sysklogd-1.5.1
 - Sysvinit-3.08
-- About Debugging Symbols
-- Stripping
-- Cleaning Up
 
 ### Summary
 
