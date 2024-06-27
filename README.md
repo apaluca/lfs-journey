@@ -161,3 +161,93 @@ Today I covered:
 
 Today's activities were focused on building the core components of my Linux system. I completed the installation of essential packages, ensuring the system is properly set up and configured. This stage is crucial as it lays the foundation for a fully functional Linux system.
 
+
+## My Linux From Scratch Journey - 21.06.2024
+
+### Reading Progress
+
+Today, I covered:
+
+- **Chapter 9: System Configuration**
+  - **Introduction:** Overview of system configuration steps.
+  - **LFS-Bootscripts-20230728:** Installed and configured the LFS bootscripts.
+  - **Overview of Device and Module Handling:** Learned how to manage devices and modules in the system.
+  - **Managing Devices:** Set up device management with `udev`.
+  - **General Network Configuration:** Configured basic network settings.
+  - **System V Bootscript Usage and Configuration:** Learned to manage and configure System V boot scripts.
+  - **Configuring the System Locale:** Set up the system locale settings.
+  - **Creating the /etc/inputrc File:** Created and configured the inputrc file for readline.
+  - **Creating the /etc/shells File:** Created and configured the shells file listing valid login shells.
+
+### Additional Reading
+
+- **udev Daemon:** Learned about the `udev` daemon from [Greg Kroah-Hartman's paper](http://www.kroah.com/linux/talks/ols_2003_udev_paper/Reprint-Kroah-Hartman-OLS2003.pdf).
+- **sysfs Filesystem:** Gained insights into the `sysfs` filesystem from [Patrick Mochel's paper](https://mirrors.edge.kernel.org/pub/linux/kernel/people/mochel/doc/papers/ols-2005/mochel.pdf).
+
+### Summary
+
+Today's activities focused on configuring my Linux system. I installed and configured essential bootscripts, managed devices and modules, set up network configurations, and adjusted system locales. Additionally, I deepened my understanding of `udev` and the `sysfs` filesystem, which are crucial for device management.
+
+
+## My Linux From Scratch Journey - 25.06.2024
+
+### Reading Progress
+
+Today, I completed the final chapters of my LFS Book. I covered:
+
+- **Chapter 10: Making the LFS System Bootable**
+  - **Introduction:** Overview of the boot process.
+  - **Creating the /etc/fstab File:** Configured the file system table.
+  - **Linux-6.7.4:** Compiled the Linux kernel version 6.7.4.
+  - **Using GRUB to Set Up the Boot Process:** Installed and configured GRUB as the bootloader.
+
+- **Chapter 11: The End**
+  - **The End:** Concluded the LFS build process.
+  - **Get Counted:** Information on registering my LFS build.
+  - **Rebooting the System:** Instructions for the first boot into the new LFS system.
+  - **Additional Resources:** Provided further reading and resources.
+  - **Getting Started After LFS:** Guidance on what to do next after completing LFS.
+
+### Additional Learning
+
+- **Kernel Configuration:** Learned about the kernel configuration process from [Kernel Configuration in a Nutshell](https://anduin.linuxfromscratch.org/LFS/kernel-nutshell/).
+
+### Summary
+
+Today's activities marked the completion of my LFS build. I compiled the Linux kernel, set up GRUB, and prepared the system for its first boot. Additionally, I learned about kernel configuration, which is essential for customizing and optimizing the kernel for my system.
+
+
+## My Beyond Linux From Scratch Journey - 26.06.2024
+
+### Reading Progress
+
+Today, I began exploring the Beyond Linux From Scratch (BLFS) book. I covered the following sections:
+
+- **I. Introduction**
+  - **Welcome to BLFS:**
+    - Learned about the structure and sections of the book, conventions used, and where to get source packages.
+    - Reviewed the change log, mailing lists, editor notes, and FAQ for additional support.
+  - **Important Information:**
+    - Explored notes on building software, the /usr vs /usr/local debate, optional patches, BLFS boot scripts, and handling Libtool Archive (.la) files.
+    - Understood the differences between static and shared libraries, locale-related issues, and considerations for going beyond BLFS.
+
+- **II. Post LFS Configuration and Extra Software**
+  - **After LFS Configuration Issues:**
+    - Covered various topics including creating custom boot devices, console fonts, firmware, devices, and configuring user additions.
+    - Learned about system users and groups, Bash shell startup files, and customization of logon messages with /etc/issue.
+    - Reviewed random number generation and the /etc/vimrc and ~/.vimrc files for Vim editor customization.
+
+### Activities
+
+- **User Profiles and Terminal Customization:**
+  - Created default profiles for my users and personalized the terminal interface for a better user experience.
+
+- **Wireless Configuration:**
+  - Attempted to configure my wireless interface and connect to a network but was unsuccessful.
+  
+- **Installed NetworkManager:**
+  - Installed NetworkManager and its dependencies to manage network connections more easily.
+
+### Summary
+
+Today's activities involved familiarizing myself with the BLFS book and beginning the post-LFS configuration. Although I encountered challenges with wireless configuration, I installed NetworkManager to assist with managing network connections. Additionally, I created user profiles and customized the terminal interface to enhance usability.
